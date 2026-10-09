@@ -1,0 +1,38 @@
+# Model weights & large binaries (download separately — see CREDITS.md)
+*.pt
+*.onnx
+*.h5.bak
+*.pkl
+!scaler_*.pkl
+
+# Media
+*.mp4
+*.avi
+*.mov
+input_videos/
+output_videos/
+
+# Datasets
+*.csv
+*.zip
+roboflow_images/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.env
+.env.local
